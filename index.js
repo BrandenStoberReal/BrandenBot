@@ -1,7 +1,9 @@
 var Discord = require("discord.js");
 var fs = require("fs");
+var env = require()
 var Bot = new Discord.Client();
-var Token = "NzI0NDc3MDU4Mzk4NTUyMjk1.XvAv3Q.GrRlqUqfYmNv0PwJIGAag153kgU";
+require('dotenv').config();
+var Token = process.env.DISCORD_TOKEN;
 var Prefix = "br!"
 
 
